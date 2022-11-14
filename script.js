@@ -22,29 +22,125 @@ let updateTimer;
 
 const audio_list = [
     {
-        img : 'images/stay.png',
-        name : 'Stay',
-        artist : 'The Kid LAROI, Justin Bieber',
-        audio : 'audio/stay.mp3'
-    },
-    {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
-        artist : 'Wid Cards',
-        audio : 'audio/fallingdown.mp3'
-    },
-    {
-        img : 'images/faded.png',
-        name : 'Faded',
-        artist : 'Alan Walker',
-        audio : 'audio/Faded.mp3'
-    },
-    {
-        img : 'images/ratherbe.jpg',
-        name : 'Rather Be',
-        artist : 'Clean Bandit',
-        audio : 'audio/Rather Be.mp3'
-    }
+        name: "Hairat - Anjana Anjani",
+        audio: "audio/hairat.mp3",
+        artist: "Lucky Ali",
+        img: "images/hairat.jpeg",
+      },
+      {
+        name: "Mitti di Khushboo",
+        audio: "audio/Mitti di Khushboo.mp3",
+        artist: "Ayushman Khurana",
+        img: "images/Mitti di Khushboo.jpeg",
+      },
+      {
+        name: "Dekhte Dekhte",
+        audio: "audio/Dekhte Dekhte.mp3",
+        artist: "Atif Aslam",
+        img: "images/Dekhte Dekhte.jpeg",
+      },
+      {
+        name: "Hum Tumko Nigahon Mein",
+        audio: "audio/Hum Tumko Nigahon Mein.mp3",
+        artist: "Udit Narayan",
+        img: "images/Hum Tumko Nigahon Mein.jpeg",
+      },
+      {
+        name: "Teri Deewani",
+        audio: "audio/Teri Deewani.mp3",
+        artist: "Kailash Kher",
+        img: "images/Teri Deewani.jpeg",
+      },
+      {
+        name: "Ye Tune Kya Kiya",
+        audio: "audio/Ye Tune Kya Kiya.mp3",
+        artist: "Kaved Bashir",
+        img: "images/Ye Tune Kya Kiya.jpeg",
+      },
+      {
+        name: "Abhi Mujh Mein Kahin",
+        audio: "audio/Abhi Mujh Mein Kahin.mp3",
+        artist: "Sonu Nigam",
+        img: "images/Abhi Mujh Mein Kahin.jpeg",
+      },
+      {
+        name: "Chahun Main Ya Naa",
+        audio: "audio/Chahun Main Ya Naa.mp3",
+        artist: "Arijit Singh",
+        img: "images/Chahun Main Ya Naa.jpeg",
+      },
+      {
+        name: "Hawa Banke",
+        audio: "audio/Hawa Banke.mp3",
+        artist: "Darshan Raval",
+        img: "images/Hawa Banke.jpeg",
+      },
+      {
+        name: "Tere Bina",
+        audio: "audio/Tere Bina.mp3",
+        artist: "AR Rahman",
+        img: "images/Tere Bina.jpeg",
+      },
+      {
+        name: "Agar Tum Saath Ho",
+        audio: "audio/Agar Tum Saath Ho.mp3",
+        artist: "Arigit Singh",
+        img: "images/Agar Tum Saath Ho.jpeg",
+      },
+      {
+        name: "Pal",
+        audio: "audio/Pal.mp3",
+        artist: "Palak",
+        img: "images/Pal.jpeg",
+      },
+      {
+        name: "Satrangi Re",
+        audio: "audio/Satrangi Re.mp3",
+        artist: "Sonu Nigam",
+        img: "images/Satrangi Re.jpeg",
+      },
+      {
+        name: "Sun Saathiya",
+        audio: "audio/Sun Saathiya.mp3",
+        artist: "Divya Kumar",
+        img: "images/Sun Saathiya.jpeg",
+      },
+      {
+        name: "Baatein Ye Kabhi Na Tu Bhulna",
+        audio: "audio/Baatein Ye Kabhi Na Tu Bhulna.mp3",
+        artist: "Arijit Singh",
+        img: "images/Baatein Ye Kabhi Na Tu Bhulna.jpeg",
+      },
+      {
+        name: "Maahi Ve",
+        audio: "audio/Maahi Ve.mp3",
+        artist: "AR Rahman",
+        img: "images/Maahi Ve.jpeg",
+      },
+      {
+        name: "Mast Magan",
+        audio: "audio/Mast Magan.mp3",
+        artist: "Arijit Singh",
+        img: "images/Mast Magan.jpeg",
+      },
+      {
+        name: "Pal Pal Dil Ke Paas",
+        audio: "audio/Pal Pal Dil Ke Paas.mp3",
+        artist: "Arijit Singh",
+        img: "images/Pal Pal Dil Ke Paas.jpeg",
+      },
+      {
+        name: "Saibo",
+        audio: "audio/Saibo.mp3",
+        artist: "Shreya Ghoshal",
+        img: "images/Saibo.jpeg",
+      },
+      {
+        name: "Tu Jaane Na",
+        audio: "audio/Tu Jaane Na.mp3",
+        artist: "Atif Aslam",
+        img: "images/Tu Jaane Na.jpeg",
+      },
 ];
 
 loadTrack(track_index);
